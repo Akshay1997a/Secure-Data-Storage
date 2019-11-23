@@ -1,0 +1,102 @@
+* {
+    -fx-color1 : #FF3366;
+    -fx-color2 : #252B33;
+    -fx-scuess:#22B24C;
+    -fx-info: #2F7BBD;
+    -fx-warning:#F5E625;
+    -fx-error:#FC3D39;
+
+    -fx-center-color: #273039;
+    -fx-left-color: #242D36;
+    -fx-top-color: #2C363F;
+    -fx-bottom-color: #222B34;
+}
+
+.root{
+    -fx-background-color: -fx-center-color;
+}
+
+.leftPane{
+    -fx-background-color: -fx-left-color;
+}
+
+.titleBar{
+    -fx-background-color: -fx-top-color;
+}
+
+.statusBar{
+    -fx-background-color: -fx-bottom-color;
+}
+
+.titleBarBut{
+    -fx-background-radius: 0px;
+    -fx-background-color: -fx-top-color;
+}
+
+.titleBarBut:hover{
+    -fx-background-color:-fx-bottom-color;
+}
+.leftPaneBut{
+    -fx-background-radius: 0px;
+    -fx-background-color: -fx-left-color;
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-padding-left: 0px;
+}
+.leftPaneBut:hover{
+    -fx-font-size: 30px;
+    -fx-background-color: #2d353e;
+}
+
+.leftPaneBut:selected{
+    -fx-font-size: 30px;
+    -fx-background-color: #2d353e;
+}
+
+.headingLabel{
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+
+.listView{
+    -fx-background-color: -fx-center-color;
+}
+
+.listView .list-cell{
+    -fx-background-color: -fx-center-color;
+}
+
+.listView .list-cell:hover{
+    -fx-background-color: -fx-bottom-color;
+}
+
+.listView .list-cell:selected{
+    -fx-background-color: -fx-bottom-color;
+}
+
+.centerBut{
+    -fx-background-color: -fx-center-color;
+}
+
+.listView .track{
+    -fx-background-color :-fx-center-color;
+    -fx-border-color :-fx-center-color;
+}
+
+.listView .thumb{
+    -fx-background-color: -fx-bottom-color;
+}
+
+.listView .increment-button,
+.listView .decrement-button,
+.listView .increment-arrow,
+.listView .decrement-arrow{
+    -fx-background-color: -fx-center-color;
+    -fx-border-color :-fx-center-color; 
+}
+
+#searchField{
+    -fx-background-radius: 15px;
+    -fx-background-color: -fx-left-color;
+    -fx-text-fill: #C3C6C8;
+}

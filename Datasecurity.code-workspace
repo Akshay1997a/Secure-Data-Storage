@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "Lock"
+		},
+		{
+			"path": "Unlock"
+		},
+		{
+			"path": "Locker"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.dependency.packagePresentation": "flat",
+		"maven.view": "hierarchical"
+	}
+}

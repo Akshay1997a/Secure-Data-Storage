@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseDragged="#onDrag" onMousePressed="#onPrasse" prefHeight="228.0" prefWidth="394.0" styleClass="leftPane" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.datasecurity.lock.FXMLController">
+    <children>
+        <Label fx:id="textLabel" layoutX="100.0" layoutY="35.0" minHeight="16" minWidth="69" styleClass="lable" text="ENCRYPTING...">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="dataImg" fitHeight="58.0" fitWidth="58.0" layoutX="168.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/data-encryption.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="circle" fill="#1f93ff00" layoutX="193.0" layoutY="149.0" radius="48.0" stroke="#d5f8f8" strokeMiterLimit="10000.0" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke-dash-array: 50;" />
+    </children>
+</AnchorPane>

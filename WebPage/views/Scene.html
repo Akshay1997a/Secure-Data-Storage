@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background-color: #273039;
+        }
+
+        #left_pane {
+            float: left;
+            height: 100%;
+            width: 20%;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        #right_pane {
+            float: right;
+            width: 80%;
+            height: 100%;
+        }
+
+        #stroke {
+            border-left: 2px solid #707070;
+            height: 100%;
+            position: absolute;
+            margin-left: 20%;
+        }
+
+        #right_top {
+            margin: 0%;
+            width: 100%;
+            height: 15%;
+        }
+
+        #heading {
+            margin-left: 10%;
+            font-size: 40px;
+            color: white;
+        }
+
+        #files {
+            margin-left: 10%;
+            border: 2px solid #707070;
+            width: 75%;
+            height: 70%;
+        }
+
+        #profile_pic {
+            margin: 20%;
+            width: 50%;
+            height: 20%;
+            border-radius: 50%;
+        }
+
+        #user_name {
+            color: white;
+            font-size: 30px;
+        }
+
+        #logoutBut {
+            border: 2px solid #707070;
+            color: white;
+            font-size: 15px;
+        }
+
+        #logoutBut:hover {
+            opacity: 0.8;
+        }
+
+        #singoutBut {
+            margin-right:2.5%;
+            float: right;
+            background-color: #273039;
+            border: 0px solid #273039;
+        }
+        #singoutBut:focus{
+            outline: none;
+        }
+        .material-icons {
+            font-size: 200%;
+            color: white;
+        }
+
+        .material-icons:hover {
+            color: red;
+            cursor: hand;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left_pane" style="text-align:center;">
+        <img id="profile_pic" src="./res/images/boy.png" alt="profile_pic">
+        <h5 id="user_name">Akshay</h5>
+    </div>
+    <div id="stroke">
+
+    </div>
+    <div id="right_pane">
+        <div id="right_top">
+            <button id="singoutBut">
+                    <i class="material-icons">power_settings_new</i>
+            </button>
+            <h3 id="heading">File Explorer</h3>
+        </div>
+        <div id="files">
+
+        </div>
+    </div>
+</body>
+
+</html>

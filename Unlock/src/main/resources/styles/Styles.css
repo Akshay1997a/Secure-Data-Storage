@@ -1,0 +1,31 @@
+* {
+    -fx-color1 : #FF3366;
+    -fx-color2 : #252B33;
+    -fx-scuess:#22B24C;
+    -fx-info: #2F7BBD;
+    -fx-warning:#F5E625;
+    -fx-error:#FC3D39;
+}
+
+.leftPane{
+    -fx-background-color: -fx-color1;
+}
+
+#rightPaneLabel{
+    -fx-font-size: 25;
+}
+#passField{
+    -fx-font-size: 20;
+}
+#errorLabel{
+    -fx-font-size: 15;
+    -fx-text-fill: -fx-error;
+}
+#unlockBut{
+    -fx-background-radius: 10;
+}
+.But{
+    -fx-background-radius: 0px;
+    -fx-background-color: -fx-color1;
+    -fx-text-fill: white;
+}

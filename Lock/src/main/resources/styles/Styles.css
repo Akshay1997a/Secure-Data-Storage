@@ -1,0 +1,35 @@
+* {
+    -fx-color1 : #FF3366;
+    -fx-color2 : #252B33;
+    -fx-scuess:#22B24C;
+    -fx-info: #2F7BBD;
+    -fx-warning:#F5E625;
+    -fx-error:#FC3D39;
+}
+.leftPane{
+    -fx-background-color: -fx-color1;
+}
+.lable{
+    -fx-font-size: 30px;
+}
+.but{
+    -fx-background-color: -fx-color1;
+    -fx-text-fill: -fx-color2;
+    -fx-font-size: 20px;
+    -fx-background-radius: 0px;
+}
+.titleBut{
+    -fx-background-color: -fx-color1;
+    -fx-text-fill: -fx-color2;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0px;
+}
+#closeBut{
+    -fx-font-size:14px;
+}
+.error{
+    -fx-text-fill: red;
+}
+.titlePane{
+    -fx-background-color: -fx-color1;
+}
